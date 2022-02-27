@@ -1,7 +1,18 @@
-<h1 class="mt-4"><img src="lg.png" alt=""></h1>
-<p class="lead mb-3">Welcome <%= user.name %></p>
-<a href="/users/logout" class="btn btn-secondary">Logout</a>
 
+<div class="row">
+  <div class="col-md-6 col-lg-4">
+    <div class="link-container">
+      <img src="https://i.imgur.com/e0LRNXn.png" alt="Avatar" style="width:auto">
+    </div>
+  </div>
+  <div class="col-lg-4">
+    <br><br>
+    <p class="lead mb-3" style="font-family: cursive;">Welcome <%= user.name %> ! Powered by Powerpuff girls!</p>
+  </div>
+  <div class="col-lg-4">
+    <a href="/users/logout" class="btn btn-secondary" style="float:right">Logout</a></a>
+  </div>
+</div>
   <div class = "container">
     <div class = "meal-wrapper">
       <div class = "meal-search">
